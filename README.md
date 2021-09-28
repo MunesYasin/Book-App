@@ -9,3 +9,15 @@ Books are life-changing. They have the power to enlighten, educate, entertain, h
 ## Use this template
 
 Clone this repo to your own account with the green "Use this template" button. Then, add any collaborators. Now you are ready to start adding features! Deploy your site to let the world know which books have had the greatest impact on you, and what's recommended. Enjoy!
+
+## Time Estimates
+
+
+
+Estimate of time needed to complete the lab : _0:30__hour__
+
+Start time: _7:25_pm___
+
+Finish time: ___8.:50_ pm_
+
+Actual time needed to complete: __1:25 hour___
