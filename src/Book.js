@@ -2,12 +2,19 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Card from 'react-bootstrap/Card';
 
+import Button from 'react-bootstrap/Button';
 
 
 
 class book extends React.Component{
 
+ deletee= ()=>{
+  this.props.delete(this.props.book._id)
+}
 
+update = ()=>{
+  this.props.update(this.props.book)
+}
 
 render() {
  
@@ -24,9 +31,10 @@ render() {
               Description : {this.props.book.description}
             </Card.Text>
             <Card.Text>
-              Status : {this.props.book.statu}
+              Status : {this.props.book.status}
             </Card.Text>
-         
+            <Button onClick={this.deletee}> Delete </Button>
+            <Button onClick={this.update} > Update </Button>
           </Card.Body>
           
           
